@@ -415,7 +415,7 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
                             e.printStackTrace();
                         }
                         resultData(tokenRet);
-                        Log.d(TAG, ("失败:\n" + ret));
+                        // Log.d(TAG, ("失败:\n" + ret));
                     }
                 });
             }
